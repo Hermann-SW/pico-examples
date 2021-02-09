@@ -19,6 +19,9 @@ add_subdirectory(blink)
 # Add hello world example
 add_subdirectory(hello_world)
 
+# Add hang example
+add_subdirectory(hang)
+
 # Hardware-specific examples in subdirectories:
 add_subdirectory(adc)
 add_subdirectory(clocks)
