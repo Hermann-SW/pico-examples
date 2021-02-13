@@ -3,7 +3,7 @@
 #include "pico/bootrom.h"
 #include <tusb.h>
 
-// https://gist.github.com/Hermann-SW/ca07f46b7f9456de41f0956d81de01a7
+// https://github.com/Hermann-SW/pico-examples/blob/master/tools/flash
 void tud_cdc_rx_wanted_cb(uint8_t itf, char wanted_char)
   { reset_usb_boot(0, 0); } // go to flash mode
 
